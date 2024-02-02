@@ -1,0 +1,35 @@
+Summary of HTTP ClassIn the HTTP (Hypertext Transfer Protocol) class, we delved into the fundamental aspects of HTTP, which serves as the foundation for communication on the World Wide Web.
+Here's an overview of the key topics covered
+
+WHAT IS HTTP?
+The Hypertext Transfer Protocol (HTTP) is the foundation of the World Wide Web,and is used to load web pages using hypertext links. HTTP is an application layerprotocol designed to transfer information between networked devices and runs on
+top of other layers of the network protocol stack. A typical flow over HTTPinvolves a client machine making a request to a server, which then sends aresponse message.
+Defined  Hypertext Transfer Protocol (HTTP) as an application layer protocol used for transmitting and receiving hypertext documents on the web.
+Highlighted its role in facilitating client-server communication by defining how requests and responses should be formatted and interpreted.
+
+REQUEST METHODS:Explained the various HTTP request methods, including:
+GET: Requests data from a specified resource.
+POST: Submits data to be processed to a specified resource.
+PUT: Uploads a representation of the specified resource.
+DELETE: Deletes the specified resource.
+HEAD: Requests the headers of the specified resource.
+OPTIONS: Requests information about the communication options available for the specified resource.
+PATCH: Applies partial modifications to a resource.
+  
+RESPONSE CODES:Discussed HTTP response status codes, which indicate the outcome of a client's request to the server.Covered common status code categories, including:
+1xx Informational: Request received, continuing process.
+2xx Success: The action was successfully received, understood, and accepted.
+3xx Redirection: Further action needs to be taken to complete the request.
+4xx Client Error: The request contains incorrect syntax or cannot be fulfilled.
+5xx Server Error: The server failed to fulfill an apparently valid request.
+  
+HTTP Headers:Explored the role of HTTP headers in transmitting additional information between the client and server.
+Described common HTTP headers such as:
+Content-Type: Specifies the media type of the resource.
+Content-Length: Indicates the size of the entity-body in bytes.
+Cache-Control: Directs caching mechanisms on how to behave.
+  
+Statelessness of HTTP:
+Emphasized the stateless nature of HTTP, whereby each request from a client to the server is independent and unrelated to previous requests.
+Highlighted techniques such as cookies and sessions to maintain state across multiple HTTP requests.
+   In essence understanding the fundamentals of HTTP, including request methods, response codes, and HTTP headers, is essential for building and interacting with web-based applications. Mastery of these concepts empowers developers to design efficient and reliable web services and troubleshoot issues effectively in a distributed computing environment.
